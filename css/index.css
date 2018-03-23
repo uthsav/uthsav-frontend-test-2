@@ -1,0 +1,72 @@
+.icon-bar{
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px; 
+}
+/*.nav navbar-nav{
+  width: 50px;
+}*/
+.pag{
+  float:center;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    margin-left: 20px;
+    border-radius: 4px;
+    float: right;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("download.png");
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 30%;
+}
+.n{
+  float:none;
+}
+.div1
+{
+  float: right;
+}
+/*#footer { 
+background-color: black;
+color: white;
+text-align: center;
+  height: 80px; }*/
+
+#carousel_button li{
+  justify-content: center;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+@media only screen and (max-width: 320px),screen and(max-height:596px) {
+    body {
+        background-color: lightblue;
+    }
+}
+.container h3{
+  color:green;
+}
+.container p{
+  color: red;
+}
+.icon-bar{
+  float: right;
+  margin-right: 0px;
+  margin-top: 0px;
