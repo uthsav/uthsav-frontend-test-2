@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="jquery-3.3.1.js"></script>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
   <div class="container">
-    <div class="row" id="xy">
+    <div class="row">
       <div class=" col-sm-4 col-xs-4 col-xs-6">
         <div class="logo">
           <ul>
-            <li><img class="logo1 img-responsive" src="images/img4.png" style="width:80px; height:80px;"></li>
+            <li><img class="logo1 img-responsive" src="images/img8.png" style="width:80px; height:80px;"></li>
           </ul>
         </div>
       </div>
@@ -27,9 +28,11 @@
       </div>
       <div class=" col-sm-4 col-xs-4 col-xs-6">
         <div class="icon-bar">
-          <a href="https://www.facebook.com" class="facebook"><img class="img-responsive" src="images/if_facebook_28291.png"></a>
-          <a href="https://www.google.com" class="google"><img class="img-responsive" src="images/if_google_28295.png"></a> 
-          <a href="https://www.youtube.com" class="youtube"><img class="img-responsive" src="images/if_youtube_28322.png"></a>
+          <ul>
+            <li><a href="https://www.facebook.com" class="facebook"><img class="img-responsive" src="images/if_facebook_28291.png"></a></li>        
+            <li><a href="https://www.google.com" class="google"><img class="img-responsive" src="images/if_google_28295.png"></a></li>
+            <li><a href="https://www.youtube.com" class="youtube"><img class="img-responsive" src="images/if_youtube_28322.png"></a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -42,133 +45,139 @@
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>                        
-             </button>           
+             </button>
            </div>
            <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
               <li class="active"><a href="#" id="home">Home</a></li>
               <li><a href="#" id="about">ABOUT</a></li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">PRODUCT<span class="caret"></span></a>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">PRODUCT<span class="caret"></span>
+                </a>
                 <ul class="dropdown-menu">
                   <li><a href="#">price1</a></li>
                   <li><a href="#">price2</a></li>
                   <li><a href="#">price3</a></li>
                 </ul>
-              </li>
-              <li><a href="#">BLOG</a></li>
-              <li><a href="#">CONTACT</a></li>
-            </ul>
+                </li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div id="HOME">  
+      <div class="row" >
+        <div class=" col-sm-12">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="item active">
+                 <img src="images/img1.jpg" alt="Los Angeles" style="width:100%;">
+              </div>
+              <div class="item">
+                 <img src="images/img2.jpg" alt="Chicago" style="width:100%;">
+              </div>
+              <div class="item">
+                <img src="images/img3.jpg" alt="New york" style="width:100%;">
+              </div>
+            </div>
+            <ol id="carousel_button" style="position:relative;">
+              <a class="l" href="#myCarousel" data-slide="prev" >
+                <button><span class="left">prev</span></button>
+                        <span class="sr-only"></span>
+              </a>
+              <div id="btn">
+                <button data-target="#myCarousel" data-slide-to="0" >1</button>
+                <button data-target="#myCarousel" data-slide-to="1" >2</button>
+                <button data-target="#myCarousel" data-slide-to="2" >3</button>
+              </div>
+              <a class="r" href="#myCarousel" data-slide="next">
+                <button><span class="right">nxt</span></button>
+                        <span class="sr-only"></span>
+              </a>
+            </ol>
+          </div>
+        </div> 
+      </div>
+      <div class="row">
+        <div class=" col-sm-12">
+          <div class="pag">
+            <center><h1><i>By 2 get 20% off on each watch</i></h1></center>
           </div>
         </div>
-      </nav>
-    </div>
-  </div>
-  <div class="row" id="HOME">
-    <div class=" col-sm-12">
-     <div id="myCarousel" class="carousel slide" data-ride="carousel">     
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="images/img1.jpg" alt="Los Angeles" style="width:100%;">
-        </div>
-        <div class="item">
-          <img src="images/img2.jpg" alt="Chicago" style="width:100%;">
-        </div>        
-        <div class="item">
-          <img src="images/img3.jpg" alt="New york" style="width:100%;">
+      </div>
+      <div class="row">
+        <div class=" col-sm-12">
+          <form class="one">
+            <input type="text" name="search" placeholder="Search..">
+          </form>
         </div>
       </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
-  <div class="container">
-    <ul class="pagination">
-      <li class="active"><a href="#Carousel">1</a></li>
-      <li class="active"><a href="#Carousel">2</a></li>
-      <li class="active"><a href="#Carousel">3</a></li>
-    </ul>
-  </div>
-  <div class="row">
-    <div class=" col-sm-12">
-      <div class="pag">
-        <center><h1><i>By 2 get 20%off on each watch</i></h1></center>
+      <div class="row">
+        <div class=" col-sm-12 col-xs-4 col-md-4">
+          <h3>TITAN</h3>
+            <p>Titan Company Limited, a joint venture between the TATA Group and the Tamil Nadu Industrial Development Corporation (TIDCO) commenced operations in 1984 under the name Titan Watches Limited. Titan Company is the fifth largest integrated own brand watch manufacturer in the world. Over the last three decades, Titan has expanded and explored into under penetrated markets and created leading brands across categories..</p>
+            <button type="button"><a href="#" id="a">info</a></button>
+        </div>
+        <div class=" col-sm-12 col-xs-4 col-md-4">
+          <h3>MK</h3>
+           <p>MK Company Limited, a joint venture between the TATA Group and the Tamil Nadu Industrial Development Corporation (TIDCO) commenced operations in 1984 under the name Titan Watches Limited. Titan Company is the fifth largest integrated own brand watch manufacturer in the world. Over the last three decades, Titan has expanded and explored into under penetrated markets and created leading brands across categories. </p>
+            <button type="button" ><a href="#" id="b">info</a></button>
+        </div>
+        <div class=" col-sm-12 colo-xs-4 col-md-4">
+          <h3>CASIO</h3>
+            <p> Casio Limited, a joint venture between the TATA Group and the Tamil Nadu Industrial Development Corporation (TIDCO) commenced operations in 1984 under the name Titan Watches Limited. Titan Company is the fifth largest integrated own brand watch manufacturer in the world. Over the last three decades, Titan has expanded and explored into under penetrated markets and created leading brands across categories..</p>
+             <button type="button"><a href="#" id="c">info</a></button>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class=" col-sm-12">     
-     <input type="text" name="search" placeholder="Search..">
-  </div>
-</div>
-<div class="row">
-  <div class=" col-sm-12 col-xs-4 col-md-4">
-    <h3>Titan</h3>
-    <p>TTitan Company Limited (earlier known as Titan Industries Limited) is an Indian luxury goods company. It is a joint venture between the Tata Group and the Tamil Nadu Industrial Development Corporation (TIDCO).
-     It commenced operations in 1984 under the name Titan Watches Limited. In 1994, Titan diversified into jewellery with Tanishq and subsequently into eyewear with Titan Eyeplus. In 2013, Titan entered the fragrances segment with the brand Skinn[4] and, later that year.</p>
-     <button type="button" class="btn btn-info" id="ab">info</button>
-   </div>
-   <div class=" col-sm-12 col-xs-4 col-md-4">
-    <h3>MK</h3>
-    <p>Titan Company Limited (earlier known as Titan Industries Limited) is an Indian luxury goods company. It is a joint venture between the Tata Group and the Tamil Nadu Industrial Development Corporation (TIDCO).
-      It commenced operations in 1984 under the name Titan Watches Limited. In 1994, Titan diversified into jewellery with Tanishq and subsequently into eyewear with Titan Eyeplus. In 2013, Titan entered the fragrances segment with the brand Skinn[4] and, later that yea </p>
-      <button type="button" class="btn btn-info" id="cd">info</button>
-    </div>
-    <div class=" col-sm-12 colo-xs-4 col-md-4">
-      <h3>Casio</h3>
-      <p>A Titan Company Limited (earlier known as Titan Industries Limited) is an Indian luxury goods company. It is a joint venture between the Tata Group and the Tamil Nadu Industrial Development Corporation (TIDCO).
-        It commenced operations in 1984 under the name Titan Watches Limited. In 1994, Titan diversified into jewellery with Tanishq and subsequently into eyewear with Titan Eyeplus. In 2013, Titan entered the fragrances segment with the brand Skinn[4] and, later that year.</p>
-        <button type="button" class="btn btn-info" id="ef">info</button>
+       <a href="" class="scrollToTop">Scroll</a>
+      <div class="row">
+        <img src="images/img8.png" class="rap">
+          <div class="wrapper top">
+         Amazon.com, Inc., doing business as Amazon (/ˈæməˌzɒn/), is an American electronic commerce and cloud computing company based in Seattle, Washington that was founded by Jeff Bezos on July 5, 1994. The tech giant is the largest Internet retailer in the world as measured by revenue and market capitalization, and second largest after Alibaba Group in terms of total sales.[3] The amazon.com website started as an online bookstore and later diversified to sell video downloads/streaming, MP3 downloads/streaming, audiobook downloads/streaming, software, video games, electronics, apparel, furniture, food, toys, and jewelry. The company also produces consumer electronics—Kindle e-readers, Fire tablets, Fire TV, and Echo—and is the world's largest provider of cloud infrastructure services (IaaS and PaaS).[4] Amazon also sells certain low-end products under its in-house brand AmazonBasics.
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="div1">
+            A quick look into any success story shows a path breaking idea at the heart of the tale.  is no exception. It is not the idea itself but the conviction to convert ideas into action and action into results is what defines a true success story. Measured by that yardstick, amazon has been a hugely successful. 
+          </div>
+          <span class="caret" style="float:right"></span>
+          <button style="float:right" id="abt">more</button>
+        </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12">
-        <p><img class="img-responsive" src="images/img8.png" style="float:none"/>
-         Amazon.com, Inc., doing business as Amazon (/ˈæməˌzɒn/), is an American electronic commerce and cloud computing company based in Seattle, Washington that was founded by Jeff Bezos on July 5, 1994. The tech giant is the largest Internet retailer in the world as measured by revenue and market capitalization, and second largest after Alibaba Group in terms of total sales.[3] The amazon.com website started as an online bookstore and later diversified to sell video downloads/streaming, MP3 downloads/streaming, audiobook downloads/streaming, software, video games, electronics, apparel, furniture, food, toys, and jewelry. The company also produces consumer electronics—Kindle e-readers, Fire tablets, Fire TV, and Echo—and is the world's largest provider of cloud infrastructure services (IaaS and PaaS).[4] Amazon also sells certain low-end products under its in-house brand AmazonBasics.
-       </p>
-     </div>
-   </div>
-      <span class="caret" style="float:right"></span>
-      <button style="float:right" id="abt">more</button>  
-</div>
-<div class="row" id="ABOUT">
-  <div class="col-sm-12">
-    <h1>Amazon</h1>
-    <p><img class="img-responsive" src="images/img8.png" style="float:right"/>
-     Amazon.com, Inc., doing business as Amazon (/ˈæməˌzɒn/), is an American electronic commerce and cloud computing company based in Seattle, Washington that was founded by Jeff Bezos on July 5, 1994. The tech giant is the largest Internet retailer in the world as measured by revenue and market capitalization, and second largest after Alibaba Group in terms of total sales.[3] The amazon.com website started as an online bookstore and later diversified to sell video downloads/streaming, MP3 downloads/streaming, audiobook downloads/streaming, software, video games, electronics, apparel, furniture, food, toys, and jewelry. The company also produces consumer electronics—Kindle e-readers, Fire tablets, Fire TV, and Echo—and is the world's largest provider of cloud infrastructure services (IaaS and PaaS).[4] Amazon also sells certain low-end products under its in-house brand AmazonBasics.
-   </p>
- </div>
-</div>
-
-<center><div id="footer">
-  <div class="container">
-    <div class="footer-top">
-      <a href="https://successstory.com/about-us">About</a>
-      <a href="https://successstory.com/contact-us">Contact</a>
-      <a href="https://successstory.com/disclaimer">Disclaimer</a>
-      <a href="https://successstory.com/privacy-policy">Privacy Policy</a>
+      <div id="ABOUT">
+        <div class="col-sm-12">
+        <h1>About Amazon</h1>
+          <p>In 2015, Amazon surpassed Walmart as the most valuable retailer in the United States by market capitalization.[9] Amazon is the fourth most valuable public company in the world, the largest Internet company by revenue in the world, and the eighth largest employer in the United States.[10] In 2017, Amazon acquired Whole Foods Market for $13.4 billion, which vastly increased Amazon's presence as a brick-and-mortar retailer.[11] The acquisition was interpreted by some as a direct attempt to challenge Walmart's traditional retail stores.[12]</p>
+            <img class="img-responsive" src="images/am.jpg">
+          </p>
+        </div>
+      </div>
     </div>
-    <div>     
-    </div>
-    <div class="copyrights">
-      <span>contact no:9845******</span>
-      <span>&copy;2018 hub.com</span>
-      <span class="all-rights">All Rights Reserved</span>
-    </center>
   </div>
-</div>
-</div>
+  <div id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="https://successstory.com/about-us">About</a>
+        <a href="https://successstory.com/contact-us">Contact</a>
+        <a href="https://successstory.com/disclaimer">Disclaimer</a>
+        <a href="https://successstory.com/privacy-policy">Privacy Policy</a>
+      </div>
+      <div>
+       <a href="https://successstory.com/become-author" class="contribute">Contribute To SuccessStory</a>
+      </div>
+      <div class="copyrights">
+        <span>contact no:9485******</span>
+        <span>&copy;2018SuccessStory.com</span>
+        <span class="all-rights">All Rights Reserved</span>
+      </div>
+    </div>
+  </div>
 </body>
 <script src="js/index.js"></script>
 </html>

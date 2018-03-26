@@ -1,33 +1,33 @@
+.icon-bar ul li{
+  display: inline-block;
+  height: 100px;  
+}
 .icon-bar{
+  width: 90%;
+  display: inline-block;
+  text-align: right;
   float: right;
-  margin-right: 20px;
-  margin-top: 20px; 
+  margin-top: 30px;
 }
-/*.nav navbar-nav{
-  width: 50px;
-}*/
-.pag{
-  float:center;
-}
+
 input[type=text] {
-    width: 130px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    margin-left: 20px;
-    border-radius: 4px;
-    float: right;
-    font-size: 16px;
-    background-color: white;
-    background-image: url("download.png");
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  margin-left: 20px;
+  border-radius: 4px;
+  float: right;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 
 input[type=text]:focus {
-    width: 30%;
+  width: 30%;
 }
 .n{
   float:none;
@@ -36,37 +36,70 @@ input[type=text]:focus {
 {
   float: right;
 }
-/*#footer { 
-background-color: black;
-color: white;
-text-align: center;
-  height: 80px; }*/
+#footer { 
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 80px; }
 
-#carousel_button li{
-  justify-content: center;
+  .scrollToTop{
+  
+  height:130px;
+  padding:35px; 
+  text-align:center; 
+  background: whiteSmoke;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position:fixed;
+  top:500px;
+  right:40px;
+  display:none;
+  background: url('https://image.flaticon.com/icons/svg/36/36905.svg') no-repeat 0px 20px;
 }
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
+.scrollToTop:hover{
+  text-decoration:none;
+}
+.rap
+  {
+   margin-top: 50px;
+    border-radius: 40%
+    height: 150px; 
+    width:150px;
+    background-color: #2badd9;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+  }
+  .top{
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  #btn{
+  margin-left: 500px;
+  position: relative;
 }
 
-@media only screen and (max-width: 320px),screen and(max-height:596px) {
+.l{
+  position: absolute;
+    top: 0px;
+    left: 43%;
+}
+.r{
+  position: absolute;
+  right:42%;top: 
+  0px;
+}
+@media only screen and (max-width: 320px),screen and(max-height: 390px) {
     body {
         background-color: lightblue;
     }
 }
 .container h3{
-  color:green;
+  color: blue;
 }
 .container p{
   color: red;
 }
-.icon-bar{
-  float: right;
-  margin-right: 0px;
-  margin-top: 0px;
